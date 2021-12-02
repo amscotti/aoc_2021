@@ -2,15 +2,14 @@
   (:require [aoc-2021.common :as common]))
 
 (defn- count-increases [input]
-  (->> (partition 2 1 input)
-       (filter #(apply < %))
+  (->> (map < input (next input))
+       (filter identity)
        (count)))
 
 (def first-part count-increases)
 
 (defn second-part [input]
-  (->> (partition 3 1 input)
-       (map #(apply + %))
+  (->> (map + input (next input) (nnext input))
        (count-increases)))
 
 (defn solution []
