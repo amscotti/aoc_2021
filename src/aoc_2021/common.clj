@@ -8,7 +8,9 @@
         (string/split-lines)
         (map parse-fn)))
   ([day parse-fn]
-   (get-input day "input.txt" parse-fn)))
+   (get-input day "input.txt" parse-fn))
+  ([day]
+   (get-input day "input.txt" identity)))
 
 (defn format-solutions [title first-part second-part]
   (str "## " title "\n* Part 1: " first-part "\n* Part 2: " second-part "\n"))

@@ -5,7 +5,7 @@ No promises on how far I will get this year, I will keep going until it's no lon
 
 # Solutions
 * [Day 1: Sonar Sweep](src/aoc_2021/day1.clj)
-
+* [Day 2: Dive!](src/aoc_2021/day2.clj)
 
 # Leiningen
 This project is using Leiningen, first install it for you can use the `lein` command.
@@ -19,6 +19,10 @@ This project is using Leiningen, first install it for you can use the `lein` com
 ## Day 1: Sonar Sweep
 * Part 1: 1121
 * Part 2: 1065
+
+## Day 2: Dive!
+* Part 1: 1427868
+* Part 2: 1568138742
 ```
 
 `lein test` will run the unit test based on sample inputs from the instructions or other test data
