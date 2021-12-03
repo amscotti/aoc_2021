@@ -1,4 +1,4 @@
-(ns aoc-2021.day1.core
+(ns aoc-2021.day1
   (:require [aoc-2021.common :as common]))
 
 (defn- count-increases [input]

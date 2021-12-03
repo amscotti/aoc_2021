@@ -4,7 +4,7 @@ My attempts at solving the [Advent of Code 2021](https://adventofcode.com/2021) 
 No promises on how far I will get this year, I will keep going until it's no longer fun. :) 
 
 # Solutions
-* [Day 1: Sonar Sweep](src/aoc_2021/day1/core.clj)
+* [Day 1: Sonar Sweep](src/aoc_2021/day1.clj)
 
 
 # Leiningen

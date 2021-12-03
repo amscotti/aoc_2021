@@ -1,7 +1,7 @@
-(ns aoc-2021.day1.core-test
+(ns aoc-2021.day1-test
   (:require
    [clojure.test :refer [deftest is]]
-   [aoc-2021.day1.core :as subject]))
+   [aoc-2021.day1 :as subject]))
 
 (def sample [199 200 208 210 200 207 240 269 260 263])
 

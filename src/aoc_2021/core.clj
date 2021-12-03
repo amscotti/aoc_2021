@@ -1,5 +1,5 @@
 (ns aoc-2021.core
-  (:require [aoc-2021.day1.core :as day1])
+  (:require [aoc-2021.day1 :as day1])
   (:gen-class))
 
 (defn -main []
