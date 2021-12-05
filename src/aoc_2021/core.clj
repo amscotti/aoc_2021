@@ -2,7 +2,8 @@
   (:require [aoc-2021.day1 :as day1]
             [aoc-2021.day2 :as day2]
             [aoc-2021.day3 :as day3]
-            [aoc-2021.day4 :as day4])
+            [aoc-2021.day4 :as day4]
+            [aoc-2021.day5 :as day5])
   (:gen-class))
 
 (defn -main []
@@ -10,4 +11,5 @@
   (day1/solution)
   (day2/solution)
   (day3/solution)
-  (day4/solution))
+  (day4/solution)
+  (day5/solution))
