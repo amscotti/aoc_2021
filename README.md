@@ -7,6 +7,7 @@ No promises on how far I will get this year, I will keep going until it's no lon
 * [Day 1: Sonar Sweep](src/aoc_2021/day1.clj)
 * [Day 2: Dive!](src/aoc_2021/day2.clj)
 * [Day 3: Binary Diagnostic](src/aoc_2021/day3.clj)
+* [Day 4: Giant Squid](src/aoc_2021/day4.clj)
 
 # Leiningen
 This project is using Leiningen, first install it for you can use the `lein` command.
@@ -28,6 +29,10 @@ This project is using Leiningen, first install it for you can use the `lein` com
 ## Day 3: Binary Diagnostic
 * Part 1: 2954600
 * Part 2: 1662846
+
+## Day 4: Giant Squid
+* Part 1: 32844
+* Part 2: 4920
 ```
 
 `lein test` will run the unit test based on sample inputs from the instructions or other test data
