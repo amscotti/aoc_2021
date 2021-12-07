@@ -9,6 +9,7 @@ No promises on how far I will get this year, I will keep going until it's no lon
 * [Day 3: Binary Diagnostic](src/aoc_2021/day3.clj)
 * [Day 4: Giant Squid](src/aoc_2021/day4.clj)
 * [Day 5: Hydrothermal Venture](src/aoc_2021/day5.clj)
+* [Day 6: Lanternfish](src/aoc_2021/day6.clj)
 
 # Leiningen
 This project is using Leiningen, first install it for you can use the `lein` command.
@@ -38,6 +39,10 @@ This project is using Leiningen, first install it for you can use the `lein` com
 ## Day 5: Hydrothermal Venture
 * Part 1: 7142
 * Part 2: 20012
+
+## Day 6: Lanternfish
+* Part 1: 380758
+* Part 2: 1710623015163
 ```
 
 `lein test` will run the unit test based on sample inputs from the instructions or other test data
