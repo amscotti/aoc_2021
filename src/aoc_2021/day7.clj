@@ -4,25 +4,30 @@
 
 (defn format-input [input]
   (->> (string/split (first input) #",")
-       (map #(Integer/parseInt %))))
+       (map #(Integer/parseInt %))
+       (frequencies)))
 
-(defn fuel-logic-part1 [to-position position]
+(defn get-change [to-position position]
   (Math/abs (- to-position position)))
 
-(defn fuel-logic-part2 [to-position position]
-  (let [change (Math/abs (- to-position position))]
-    (/ (* change (+ change 1)) 2)))
+(defn fuel-logic-part1 [to-position [position n]]
+  (* n (get-change to-position position)))
+
+(defn fuel-logic-part2 [to-position [position n]]
+  (let [change (get-change to-position position)]
+    (* n (/ (* change (+ change 1)) 2))))
 
 (defn costs-of-fuel [fuel-logic-fn positions to-position]
   (->> positions
-       (map #(fuel-logic-fn to-position %))
+       (map (partial fuel-logic-fn to-position))
        (reduce +)))
 
-(defn lowest-costs-of-fuel [fuel-logic-fn positions]
-  (let [min-position (reduce min positions)
+(defn lowest-costs-of-fuel [fuel-logic-fn input]
+  (let [positions (keys input)
+        min-position (reduce min positions)
         max-position (reduce max positions)]
     (->> (range min-position (inc max-position))
-         (map #(costs-of-fuel fuel-logic-fn positions %))
+         (map (partial costs-of-fuel fuel-logic-fn input))
          (reduce min))))
 
 (defn first-part [input]

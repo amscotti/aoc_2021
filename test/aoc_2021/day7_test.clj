@@ -6,7 +6,7 @@
 (def sample ["16,1,2,0,4,2,7,1,2,14"])
 
 (deftest format-input-test
-  (is (= '(16 1 2 0 4 2 7 1 2 14)
+  (is (= {16 1, 1 2, 2 3, 0 1, 4 1, 7 1, 14 1}
          (subject/format-input sample))))
 
 
