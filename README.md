@@ -12,6 +12,7 @@ No promises on how far I will get this year, I will keep going until it's no lon
 * [Day 6: Lanternfish](src/aoc_2021/day6.clj)
 * [Day 7: The Treachery of Whales](src/aoc_2021/day7.clj)
 * [Day 8: Seven Segment Search](src/aoc_2021/day8.clj)
+* [Day 9: Smoke Basin](src/aoc_2021/day9.clj)
 
 # Leiningen
 This project is using Leiningen, first install it for you can use the `lein` command.
@@ -53,6 +54,10 @@ This project is using Leiningen, first install it for you can use the `lein` com
 ## Day 8: Seven Segment Search
 * Part 1: 383
 * Part 2: 998900
+
+## Day 9: Smoke Basin
+* Part 1: 550
+* Part 2: 1100682
 ```
 
 `lein test` will run the unit test based on sample inputs from the instructions or other test data
