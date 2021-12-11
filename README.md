@@ -14,6 +14,7 @@ No promises on how far I will get this year, I will keep going until it's no lon
 * [Day 8: Seven Segment Search](src/aoc_2021/day8.clj)
 * [Day 9: Smoke Basin](src/aoc_2021/day9.clj)
 * [Day 10: Syntax Scoring](src/aoc_2021/day10.clj)
+* [Day 11: Dumbo Octopus](src/aoc_2021/day11.clj)
 
 # Leiningen
 This project is using Leiningen, first install it for you can use the `lein` command.
@@ -63,6 +64,10 @@ This project is using Leiningen, first install it for you can use the `lein` com
 ## Day 10: Syntax Scoring
 * Part 1: 215229
 * Part 2: 1105996483
+
+## Day 11: Dumbo Octopus
+* Part 1: 1632
+* Part 2: 303
 ```
 
 `lein test` will run the unit test based on sample inputs from the instructions or other test data
